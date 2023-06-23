@@ -1,0 +1,47 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map{  z-index: 10 ;
+  margin:0;
+  width: 450px;
+  height: 250px;
+
+}
+#pano {width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  
+}
+.container button#validerBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1; /* Définir le bouton au premier plan */
+  text-align: center;
+  margin-top: 10px;
+}
+
+#validerBtn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#validerBtn:hover {
+  background-color: darkred;
+}
